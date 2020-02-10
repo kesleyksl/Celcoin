@@ -121,7 +121,7 @@ ul{
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     padding: 10px;
-
+color: #888;
     transition: all .2s;
 
     
@@ -145,7 +145,7 @@ ul{
 }
 #menu-produtos>ul li a:hover{
     background-color: #eee;
-    color: #ff6a00;
+    color: #000;
 }
 
 .menu>ul li a:hover{
