@@ -123,10 +123,13 @@ ul{
     padding: 10px;
 color: #888;
     transition: all .2s;
+    
 
     
 }
-
+#menu-produtos>ul>li:last-child{
+    margin-bottom: 65px;
+}
 #menu-produtos>ul>li{
     border-bottom: solid 1px #eee;
 }
@@ -219,4 +222,35 @@ a{
 
 main{
     margin-top: 180px;
+}
+
+.menu-footer{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    background-color: #fff;
+   border-top: solid 1px #eee;
+    font-family: 'Arial';
+  height: 65px;
+
+}
+
+.menu-footer>li{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+}
+.menu-footer>li>i{
+    font-size: 30px;
+
+}
+.menu-footer>li:last-child>i{
+    font-size: 24px;
+
 }
